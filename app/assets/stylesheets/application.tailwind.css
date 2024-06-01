@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "flatpickr/dist/flatpickr.min.css";
+
+@import "tailwindcss/utilities";
+
+.flatpickr-wrapper {
+    @apply flex-1;
+}

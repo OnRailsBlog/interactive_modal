@@ -4,5 +4,14 @@
 
 import { application } from "./application"
 
+import FlatpickrController from "./flatpickr_controller"
+application.register("flatpickr", FlatpickrController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import ModalDropdownController from "./modal_dropdown_controller"
+application.register("modal-dropdown", ModalDropdownController)
+
+import ModalViewController from "./modal_view_controller"
+application.register("modal-view", ModalViewController)
